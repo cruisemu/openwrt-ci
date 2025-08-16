@@ -5,10 +5,8 @@ rm -rf feeds/packages/net/msd_lite
 rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf feeds/luci/themes/luci-theme-netgear
 rm -rf feeds/luci/applications/luci-app-mosdns
-rm -rf feeds/luci/applications/luci-app-netdata
 rm -rf feeds/luci/applications/luci-app-serverchan
 
-git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
 git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
 
 # Git稀疏克隆，只克隆指定目录到本地
