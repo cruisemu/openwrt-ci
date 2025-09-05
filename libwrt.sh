@@ -1,5 +1,5 @@
 rm -rf package/emortal/luci-app-athena-led
-git clone --depth=1 https://github.com/sbwml/openwrt_helloworld package/hysteria
+git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
 
 # Git稀疏克隆，只克隆指定目录到本地
 function git_sparse_clone() {
